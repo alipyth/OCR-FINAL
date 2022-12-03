@@ -102,7 +102,8 @@ def main():
                 # Display JSON
                 st.markdown("\nHere are your analysis results in JSON format:")
                 for i in page_export['blocks']:
-                    st.write(i['lines']['words'])
+                    for w in i['lines']:
+                        st.write(w['words'])
                        
 
 
