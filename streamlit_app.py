@@ -102,10 +102,8 @@ def main():
                 # Display JSON
                 st.markdown("\nHere are your analysis results in JSON format:")
                 for i in page_export['blocks']:
-                    if i['words'][0]['value'] is not None:
-                        st.write(i['words'][0]['value'])
-                    else:
-                        st.write(i['lines'])
+                    st.write(i['words'][0]['value'])
+                       
 
 
 if __name__ == '__main__':
