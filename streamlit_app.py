@@ -1,8 +1,3 @@
-# Copyright (C) 2021, Mindee.
-
-# This program is licensed under the Apache License version 2.
-# See LICENSE or go to <https://www.apache.org/licenses/LICENSE-2.0.txt> for full license details.
-
 import os
 
 import matplotlib.pyplot as plt
@@ -31,7 +26,7 @@ def main():
     st.set_page_config(layout="wide")
 
     # Designing the interface
-    st.title("docTR: Document Text Recognition")
+    st.title("Ai And Health")
     # For newline
     st.write('\n')
     #
