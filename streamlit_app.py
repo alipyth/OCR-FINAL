@@ -101,7 +101,7 @@ def main():
 
                 # Display JSON
                 st.markdown("\nHere are your analysis results in JSON format:")
-                st.write(page_export)
+                st.write(page_export['blocks'])
 
 
 if __name__ == '__main__':
