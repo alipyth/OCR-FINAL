@@ -26,11 +26,10 @@ def main():
     st.set_page_config(layout="wide")
 
     # Designing the interface
-    st.title("Ai And Health")
+        st.title("Developed By Ali Jahani")
     # For newline
     st.write('\n')
     #
-    st.write('Find more info at: https://github.com/mindee/doctr')
     # For newline
     st.write('\n')
     # Instructions
